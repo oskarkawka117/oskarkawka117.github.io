@@ -122,6 +122,21 @@ a:hover {
   border-bottom: 1px solid rgba(34, 211, 238, 0.5);
 }
 
+.cv-meta .download-link {
+  width: fit-content;
+  margin-top: 0.4rem;
+  padding: 0.45rem 0.75rem;
+  border: 1px solid rgba(245, 158, 11, 0.55);
+  border-radius: 0.55rem;
+  color: var(--accent);
+  background: rgba(245, 158, 11, 0.12);
+  font-weight: 600;
+}
+
+.cv-meta .download-link:hover {
+  background: rgba(245, 158, 11, 0.2);
+}
+
 .cv-grid {
   position: relative;
   z-index: 1;
@@ -232,6 +247,19 @@ a:hover {
   background: white;
   padding: 6px;
   border-radius: 0.5rem;
+}
+
+.project-icon {
+  display: grid;
+  place-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 0.5rem;
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.18), rgba(34, 211, 238, 0.16));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--accent-2);
+  font-weight: 700;
+  font-size: 0.9rem;
 }
 
 .project-card h3 {
